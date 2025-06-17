@@ -1,0 +1,49 @@
+.input-tarefa {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .btn-adicionar {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-adicionar:hover {
+    background-color: #218838;
+  }
+  
+  .btn-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn-voltar:hover {
+    background-color: #5a6268;
+  }
+  .lista-tarefas {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .lista-tarefas li {
+    margin-bottom: 8px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  

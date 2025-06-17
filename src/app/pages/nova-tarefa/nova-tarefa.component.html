@@ -1,0 +1,14 @@
+<div class="container">
+    <h2>📝 Nova Tarefa</h2>
+  
+    <input [(ngModel)]="tarefa" placeholder="Digite a tarefa" class="input-tarefa" />
+    <button (click)="adicionarTarefa()" class="btn-adicionar">Adicionar</button>
+    <a routerLink="/" class="btn-voltar">↩ Voltar</a>
+  
+    <ul class="lista-tarefas">
+      <li *ngFor="let item of tarefas">
+        {{ item }}
+      </li>
+    </ul>
+  </div>
+  

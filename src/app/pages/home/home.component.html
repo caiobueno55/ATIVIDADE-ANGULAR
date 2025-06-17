@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>📋 Lista de Tarefas</h2>
+
+  <a routerLink="/nova" class="btn-add">+ Nova Tarefa</a>
+
+  <ul class="task-list">
+    <li *ngFor="let tarefa of tarefas" [class.completed]="tarefa.concluida">
+      <span>{{ tarefa.titulo }}</span>
+      <div class="actions">
+        <button (click)="concluir(tarefa.id)" class="btn-concluir">✅</button>
+        <button (click)="remover(tarefa.id)" class="btn-remover">🗑️</button>
+      </div>
+    </li>
+  </ul>
+</div>
