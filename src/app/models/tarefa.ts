@@ -1,6 +1,6 @@
-export interface Tarefa {
-    id: number;
-    titulo: string;
-    concluida: boolean;
-  }
+export interface Task {
+  id: number;
+  title: string;
+  completed: boolean;
+}
   
